@@ -6,6 +6,19 @@ This repository hosts Autodesk Platform Services OpenAPI specifications and prov
 
 Follow the detailed [setup instructions](docs/claude_setup.md) to install dependencies and instantiate the client.
 
+## MCP Client Features
+
+This client dynamically exposes APS APIs through a namespaced structure and logs
+every request for maximum transparency.
+
+- [x] Dynamic loading of OpenAPI specifications
+- [x] Namespaced endpoint groups for compartmentalization
+- [x] Verbose logging of requests and responses
+- [x] Request/response history for context preservation
+- [x] Async endpoint support
+- [x] Operation metadata (ID, summary, description) captured in history
+- [x] Docstrings enumerate parameters and body details for each endpoint
+
 ## Endpoint Checklist
 Run `python scripts/update_readme_checklist.py` to refresh these statuses from the OpenAPI specs.
 ### authentication

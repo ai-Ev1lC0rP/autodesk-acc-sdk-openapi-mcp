@@ -1,3 +1,3 @@
-from .client import AutodeskMCP
+from .client import AutodeskMCP, AutodeskMCPAsync, RequestRecord
 
-__all__ = ['AutodeskMCP']
+__all__ = ["AutodeskMCP", "AutodeskMCPAsync", "RequestRecord"]
